@@ -1,0 +1,14 @@
+# Themes
+
+Themes for [Croogo](http://croogo.org) CMS.
+
+Requires [Croogo 1.3](http://github.com/croogo/croogo/downloads) or above.
+
+## How to use
+
+* Log in to admin panel
+* Go to *Extensions > Themes* page
+* Upload the zip file ([available here](http://github.com/fahad19/themes/downloads))
+* Click on *Activate* link of your new theme
+
+Read more about theming with Croogo here: [http://wiki.github.com/croogo/croogo/themes](http://wiki.github.com/croogo/croogo/themes)
