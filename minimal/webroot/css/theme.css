@@ -1,0 +1,125 @@
+/**
+ * Minimal theme for Croogo
+ *
+ * Link: http://fahad19.com/blog/minimal-theme
+ */
+body { font-family: Arial, sans-serif; font-size: 12px; font-variant: normal; font-weight: normal; line-height: 1.5em; color: #484848; }
+
+a { text-decoration: none; color: #000000; font-weight: 600; }
+a:hover { color: #666; }
+
+p + p { margin-top: 20px; }
+
+pre { background: #f7f7f7; margin: 10px 0px 10px 0px; padding: 20px; font-family: Courier, monospace; }
+
+blockquote { margin: 20px 0px 20px 0px; padding: 20px 50px 20px 50px; }
+blockquote p { font-family: Georgia, serif; font-size: 16px; font-style: italic; }
+blockquote p cite { text-align: right; display: block; }
+
+hr { margin-top: 100px; border: 0; border-top: 1px solid #ccc; color: #fff; }
+
+
+/**
+ * Form
+ */
+form .input { margin-bottom: 15px; }
+form .input label { display: block; font-size: 18px; font-weight: normal; padding: 0px 0px 5px 0px; }
+form .input input[type=text] { width: 500px; border: 1px solid #a5acb2; padding: 5px; }
+form .input input[type=text]:focus { background: #fafafa; }
+form .input textarea { width: 500px; border: 1px solid #a5acb2; padding: 5px; font-family: Arial; }
+form .input textarea:focus { background: #fafafa; }
+form input[type=submit] { background: #464646; color: #fff; font-weight: bold; border: 1px solid #333; padding: 5px; }
+form input[type=submit]:active { border: 1px solid #ccc; }
+
+.contact-form { margin-top: 20px; }
+
+
+/**
+ * Header
+ */
+#header { margin-top: 30px; margin-bottom: 40px; }
+#header #logo { padding: 50px 0px 50px 0px; }
+#header #logo h1 a { font-family: Georgia; font-size: 72px; font-weight: normal; color: #000; }
+#header #logo h1 a:hover { color: #444; }
+#header #logo h1 a span { color: #a9a9a9; }
+#header #tagline { padding: 30px 0px 30px 0px; font-family: Georgia; font-style: italic; font-size: 30px; line-height: 35px; color: #a9a9a9; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+#header #tagline a { font-weight: normal; color: #444; }
+#header #tagline a:hover { color: #000; }
+
+
+/**
+ * Node
+ */
+.node { padding-bottom: 60px; margin-bottom: 60px; border-bottom: 1px solid #ccc; }
+.node h2,
+#content h2,
+.node h2 a { font-family: Georgia; font-size: 36px; font-weight: normal; margin-bottom: 5px; }
+.node h2,
+#content h2 { line-height: 50px; color: #000; }
+.node h3 { font-family: Georgia; font-size: 24px; font-weight: normal; line-height: 20px; margin: 30px 0px 30px 0px; }
+.node h4 { font-family: Georgia; font-size: 18px; font-weight: normal; line-height: 20px; margin: 15px 0px 15px 0px; }
+.node .node-info { font-size: 10px; color: #888; margin-bottom: 10px; }
+.node .node-more-info { font-size: 10px; color: #888; margin-top: 10px; }
+.node .node-body a,
+.node .node-excerpt a { border-bottom: 1px dotted #000; }
+.node .node-body a:hover,
+.node .node-excerpt a:hover { border-bottom: 1px dotted #bbb; }
+.node ul { list-style: circle; margin-left: 30px; margin-bottom: 10px; }
+.node ol { list-style: decimal; margin-left: 30px; }
+.node dl dt { font-family: Georgia, serif; font-size: 18px; }
+.node dl dd { padding: 15px 0px 15px 15px; }
+.node img { border: 5px solid #222; margin: 10px 0px 10px 0px; }
+
+
+/**
+ * Blocks
+ */
+.block { }
+.block + .block { margin-top: 40px; }
+.block h3 { margin: 20px 0px 30px 0px; font-family: Georgia; font-size: 24px; font-weight: normal; }
+.block .block-body ul { border-top: 1px solid #eee; }
+.block .block-body ul li { padding: 0px; display: block; background: #fff; border-bottom: 1px solid #eee; }
+.block .block-body ul li:hover { border-bottom: 1px solid #bbb; }
+.block .block-body ul li a { display: block; padding: 5px 5px 5px 3px; }
+
+.block-search form input[type=text] { width: 190px; float: left; margin: 0px 5px 2px 2px; }
+.block-search form input[type=submit] { padding: 4px; }
+
+
+/**
+ * Comments
+ */
+.comments h3 { font-family: Georgia; font-size: 28px; font-weight: normal; line-height: 20px; margin: 15px 0px 25px 0px; }
+.comments .comment { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+.comments .comment .comment { margin-left: 45px; margin-bottom: 0px; }
+.comments .comment .comment + .comment { margin-top: 10px; }
+.comments .comment-info { background: #fafafa; }
+.comments .comment-info .avatar { float: left; margin-right: 10px; }
+.comments .comment-info .avatar img { border: 2px solid #333; }
+.comments .comment-info .name { display: block; font-weight: bold; }
+.comments .comment-info .date { font-size: 10px; color: #888; }
+.comments .comment-body { margin: 10px 0px 0px 0px; }
+.comments .comment-reply { padding: 10px 0px 10px 0px; }
+.comments .comment-reply a { background: #464646; color: #fff; font-weight: normal; padding: 5px; }
+.comments .comment-reply a:hover { background: #eee; color: #464646; }
+.comments .author { border: 1px solid #a9a9a9; background: #fafafa; }
+.comments .author > .comment-info { background: #efefef; }
+
+.comment-form h3 { font-family: Georgia; font-size: 28px; font-weight: normal; line-height: 20px; margin: 30px 0px 30px 0px; }
+
+
+/**
+ * Pagination
+ */
+div.paging { text-align: center; font-size: 16px; color: #fff; margin: 20px; }
+div.paging span.current,
+div.paging span a { color: #484848; padding: 7px 12px 7px 12px; border: 1px solid #ccc; font-weight: bold; }
+div.paging span a { border: 1px solid #eee; }
+div.paging span a:hover { border: 1px solid #ccc; color: #000; }
+
+
+/**
+ * Footer
+ */
+#footer { margin-top: 50px; padding: 15px 0px 15px 0px; background: #fff; border-top: 1px #ddd solid; }
+#footer .right { text-align: right; }
