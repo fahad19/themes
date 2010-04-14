@@ -14,7 +14,7 @@
         <?php
             echo $layout->meta();
             echo $layout->feed();
-            echo $javascript->link(array('jquery/jquery.min'));
+            echo $html->script(array('jquery/jquery.min'));
             echo $layout->js();
             echo $html->css(array(
                 'reset',
@@ -53,7 +53,7 @@
 
             <div id="footer" class="container_16">
                 <div class="left grid_8">
-                    Powered by <?php echo $html->link('Croogo', 'http://croogo.org'); ?>
+                    Powered by <?php echo $html->link('Croogo', 'http://croogo.org'); ?> with <?php echo $html->link('Minimal', 'http://fahad19.com/blog/minimal-theme'); ?> Theme.
                 </div>
 
                 <div class="right grid_8">

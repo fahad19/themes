@@ -90,7 +90,7 @@ form input[type=submit]:active { border: 1px solid #ccc; }
  * Comments
  */
 .comments h3 { font-family: Georgia; font-size: 28px; font-weight: normal; line-height: 20px; margin: 15px 0px 25px 0px; }
-.comments .comment { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+.comments .comment { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; background: #fff; }
 .comments .comment .comment { margin-left: 45px; margin-bottom: 0px; }
 .comments .comment .comment + .comment { margin-top: 10px; }
 .comments .comment-info { background: #fafafa; }
