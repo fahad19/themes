@@ -1,0 +1,17 @@
+{
+  "name" : "Minimal",
+  "description" : "Minimal theme for Croogo",
+  "screenshot" : "screenshot.png",
+
+  "author" : "Fahad Ibnay Heylaal",
+  "authorEmail" : "author@email.com",
+  "authorUrl" : "http://authorswebsite.com",
+
+  "menus" : [
+    "main"
+    ],
+
+  "regions" : [
+    "right"
+    ]
+}
